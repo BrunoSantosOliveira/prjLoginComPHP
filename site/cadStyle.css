@@ -1,0 +1,117 @@
+body{
+    height: 100vh;
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(imgs/fundoSpace.jpeg);
+    background-size: cover;
+    background-blend-mode: overlay;
+    color: white;
+    flex-direction: column;
+}
+
+.mainContent{
+    flex-direction: row;
+    display: flex;
+    border: black solid 2px;
+    border-radius: 10px;
+    background-color: rgb(205,204,202, 0.3);
+}
+
+.content{
+    flex-direction: column;
+    display: flex;
+    border-left: black solid 3px;
+    padding: 15px;
+    align-items: center;
+}
+
+.beautySpace{
+    flex-direction: column;
+    display: flex;
+    padding: 15px;
+    border-right: black solid 3px;
+    align-items: center;
+}
+
+.content form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.divForm{
+    display: flex;
+    flex-direction: column;
+}
+
+.alinhamento2{
+    display: flex;
+    flex-direction: row;
+}
+
+.alinhamento1{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    margin: 2px;
+}
+
+#entAge{
+    width: 50px;
+}
+
+#divAge{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+#btnSubmit{
+    width: 100px;
+    height: 30px;
+    margin-top: 18.72px;
+    border: #aaaaa8 solid 2px;
+    border-radius: 5px;
+    transition: border-color 0.2s;
+}
+
+.beautySpace h1{
+    margin-top: 0px;
+}
+
+#btnSubmit:hover{
+    border-color: black;
+}
+
+.msgPhpSuccesfully{
+    color: greenyellow;
+    size: 20px;
+}
+
+.btnVoltarIndex{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 100%;
+}
+
+#btnVoltarIndex{
+    width: 100px;
+    height: 30px;
+    margin-top: 18.72px;
+    border: #aaaaa8 solid 2px;
+    border-radius: 5px;
+    transition: border-color 0.2s;
+}
+
+#btnVoltarIndex:hover{
+    border-color: black;
+}

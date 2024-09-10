@@ -1,0 +1,12 @@
+CREATE DATABASE dbGalaxyStars;
+USE dbGalaxyStars;
+
+CREATE TABLE tb_users(
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    username VARCHAR(150) NOT NULL UNIQUE,
+    name VARCHAR(30) NOT NULL,
+    lastName VARCHAR(50) NOT NULL,
+    password varchar(50) NOT NULL,
+    email VARCHAR(255) NOT NULL UNIQUE,
+    createdAt TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);

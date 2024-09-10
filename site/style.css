@@ -1,0 +1,92 @@
+body{
+    height: 100vh;
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(imgs/fundoSpace.jpeg);
+    background-size: cover;
+    background-blend-mode: overlay;
+    color: white;
+}
+
+.mainContent{
+    flex-direction: row;
+    display: flex;
+    border: black solid 2px;
+    border-radius: 10px;
+    background-color: rgb(205,204,202, 0.3);
+}
+
+.content{
+    flex-direction: column;
+    display: flex;
+    border-left: black solid 3px;
+    padding: 15px;
+    align-items: center;
+}
+
+.content input{
+    width: 170px;
+}
+
+.content h1{
+    margin: 0px;
+}
+
+.content h3{
+    margin-bottom: 0px;
+}
+
+#btnSubmit{
+    margin-top: 18.72px;
+    border: #aaaaa8 solid 2px;
+    border-radius: 5px;
+    transition: border-color 0.2s;
+    height: 26px;
+    width: 178px;
+}
+
+#btnSubmit:hover{
+    border-color: black;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+.beautySpace{
+    flex-direction: column;
+    display: flex;
+    border-right: black solid 3px;
+    padding: 15px;
+    align-items: center;
+}
+
+.beautySpace h1{
+    margin: 0;
+}
+
+.beautySpace h3{
+    margin: 0;
+    margin-top: 5px;
+}
+
+.beautySpace pre{
+    margin-top: 30px;
+}
+
+#btnCadastrar{
+    margin-top: 18.72px;
+    border: #aaaaa8 solid 2px;
+    border-radius: 5px;
+    transition: border-color 0.2s;
+    height: 26px;
+    width: 178px;
+}
+
+#btnCadastrar:hover{
+    border-color: black;
+}
