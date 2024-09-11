@@ -15,4 +15,4 @@ _Etapas da Parte de_ **_Back-End_**
 - [x] Verificação de Login
 
 
-Entre em contato comigo [clique aqui.](https://www.linkedin.com/in/bruno-oliveira-063911265/)
+**Entre em contato comigo [clique aqui.](https://www.linkedin.com/in/bruno-oliveira-063911265/)**
