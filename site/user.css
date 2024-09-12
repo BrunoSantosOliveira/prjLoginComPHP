@@ -1,0 +1,56 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    height: 100vh;
+    width: 100vh;
+    background-image: url(imgs/fundoSpace.jpeg);
+    background-size: cover;
+}
+
+header{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    height: 50px;
+    color: white;
+    margin-top: 25px;
+}
+
+.mid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.mid a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    transition: font-size 0.2s;
+    margin: 10px;
+}
+
+.mid a:hover{
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+button{
+    border-radius: 20px;
+    border-style: none;
+    height: 30px;
+    transition: all 0.2s;
+}
+
+button:hover{
+    font-size: 20px;
+}

@@ -21,7 +21,7 @@
                 } else{
                     session_start();
                     $_SESSION['user'] = $row['nome'];
-                    header("Location: /user.php");
+                    header("Location: user.php");
                     exit();
                 }
             } else{
